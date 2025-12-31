@@ -4,7 +4,7 @@
 // @author : Hector 
 // @telegram : http://t.me/official_kango
 // @github : OfficialKango
-// @whatsapp : +254768282891
+// @whatsapp : +25468282891
 
 //----------------------[ KANGO-XMD ]----------------------//
 
@@ -18,7 +18,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.SESSION_ID = process.env.SESSION_ID || '' 
 //KANGO~eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic08rOHR5SHdQcWpHZnE0VWRqWWV1ZkZKbEwycUIwQm1jNzlIN25kSG1Iaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUjJaZkFpaG9meXpsLys0SjZ0Nyt0SSs0R0JlcDZjL0tzQ0xENDM3VENFdz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJhSzBUNnBndllORDh0R25MczRUem42Nm9seHJyTVVnbnliSVpKUDVuY0ZnPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPaHdvMzdpMFpVU1pCL01xdHZ3SHd3RDRCQVpXSm9aRVJCam5JOXBqNWc4PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdMdnh1QTdhMXhHdGhpdkhRSk00YjdIdFRtWTVsN2dtV2ZVUHBIQUlEVjA9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik1zdU5OS3AvNElqSjNIWnhBMVk5cEhzTnVXVnRxUHc5VGdsaXR5UWpoeHc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0ppQU53c2h5RjhPeFVNNGVrbFI0eEd5aXBUWFFDNUNwRXVNelFqcmZsQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMS8yamY3YThQaDJhTHlvdDhOQmVidTJSZjdLMUIwNjVUcUxETnAzWWNCUT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9hZURtdW44WmV5akVtN0Q2UEtzbm5kb0FzTFg3cTk3TFBmaXJmUzBRWnpZczNGYW9hcXRZQS9teGlSVCtjNGgxSUkrQnBOblhQOHNtc0xXVnFNeENnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTI3LCJhZHZTZWNyZXRLZXkiOiIrek12R3RTMkpQdmxycHBUb2Q3N2dGSVU0Sm02VGgwQW43dVlXQW1IbDlvPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6ODEzLCJmaXJzdFVudXBsb2FkZWRQcmVLZXlJZCI6ODEzLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJyZWdpc3RlcmVkIjp0cnVlLCJwYWlyaW5nQ29kZSI6IjlBQVhNRVZHIiwibWUiOnsiaWQiOiIyNTQ3NjgyODI4OTE6NEBzLndoYXRzYXBwLm5ldCIsImxpZCI6IjY5MjI2OTIwNDMxNzA5OjRAbGlkIn0sImFjY291bnQiOnsiZGV0YWlscyI6IkNPVFkrZVVHRU1EazBzb0dHQUVnQUNnQSIsImFjY291bnRTaWduYXR1cmVLZXkiOiJKWGZhdG1jTFBYd1RjeHJyTE5mZjBrTi9QcVl5bGlJeGJZZTlBUm4zWjNRPSIsImFjY291bnRTaWduYXR1cmUiOiI1SU4zTzhzWU81L3QyV0lPMEFsc0R5dXZJZnB6SDZiYkpPY0E5TVRJNmFQNXZxZFhkSHlHbFRvOWNmSTl0SDMxZ2dwLzJQRjJsQitUTHdEK0Q0cTBDQT09IiwiZGV2aWNlU2lnbmF0dXJlIjoibnZPbmxnTkoxVXNYRWFFWmpGN25obThka3hvd0UzMVNkK0dJRHZqVC9zNjZYbXNHRm93QXZDRGlmbUZXam5zUkVlRVRSekJPM1JJd2tNMVdOOVgzQ2c9PSJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI2OTIyNjkyMDQzMTcwOTo0QGxpZCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJTVjMyclpuQ3oxOEUzTWE2eXpYMzlKRGZ6Nm1NcFlpTVcySHZRRVo5MmQwIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwicm91dGluZ0luZm8iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJDQTBJQ0FnQyJ9LCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3NjcxNTgzNTAsImxhc3RQcm9wSGFzaCI6IjFLNGhINCIsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSmVKIn0=
 
-//--------------------[ BOT NAME ]----------------------//
+//--------------------[ manchezz ]----------------------//
 
 global.botname = process.env.BOT_NAME || 'KANGO-XMD' 
 
@@ -28,7 +28,7 @@ global.ownernumber = process.env.OWNER_NUMBER || '25468282891
 
 //--------------------[ SUDO ]--------------------------//
 
-global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['233509977126', '233577860202'];
+global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : [''];
 // Type additional allowed users here
 //NB: They'll be able to use every functions of the bot without restrictions.
 
